@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Заголовок</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Форма регистрации</h1>
+            <form>
+                <div class="form-input">
+                    <label for="name-input">Введите ваше имя</label>
+                    <input type="text" id="name-input" placeholder="Имя"/>
+                </div>
+                <div class="form-input">
+                    <label for="password">Введите ваш пароль</label>
+                    <input type="password" id="password" placeholder="Пароль"/>
+                </div>
+                <div class="form-input">
+                    <label for="email">Почтовый адрес</label>
+                    <input type="email" id="email" placeholder="example@example.com"/>
+                </div>
+                <div class="form-input">
+                    <label for="user-type-input">Выберите роль пользователя</label>
+                    <select name="" id="user-type-input">
+                        <option value="Администратор">Администратор</option>
+                        <option value="Модератор">Модератор</option>
+                        <option value="Пользователь">Пользователь</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label for="check">Я соглашаюсь на передачу данных</label>
+                    <input type="checkbox" id="check"/>
+                </div>
+                <input type="submit" value="Подтвердить форму"/>
+            </form>
+        </div>
+    </body>
+</html>
