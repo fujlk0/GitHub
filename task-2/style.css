@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: italic;
+    letter-spacing: 2px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 30px;
+    background-color: #AAFFCC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #0CFF00;
+}
+input[type=submit]:active{
+    cursor: pointer;
+    background-color: #000;
+}
+
+label{
+    color: #ABABAB;
+    padding-bottom: 5px;
+}
+
+input[type=text]{
+    background-color: blueviolet;
+}
+
+input[type=password]{
+    background-color: blueviolet;
+}
+
+input[type=email]{
+    background-color: blueviolet;
+}
+
+select{
+    background-color: blueviolet;
+}
+select:hover{
+    cursor: crosshair;
+}
+
+input[type=checkbox]:hover{
+    cursor: progress;
+}
